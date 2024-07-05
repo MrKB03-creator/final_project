@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    padding: 3rem;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: solid 1px #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container__h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.container__p {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container__p a {
+    color: #027BFF;
+    text-decoration: none;
+    padding-left: 0.5rem;
+}
+
+.container__p a:hover {
+    text-decoration: underline;
+}
+
+.form__group {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.container__section {
+    padding-top: 1rem;
+}
+
+.form__group label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form__group input, .form__group select{
+    width: 100%;
+    border: solid 1px #E0E0E0;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.container__buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.form__group button {
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+
+.button__blue {
+    background-color: #027BFF;
+    color: white;
+
+}
+
+.button__blue:hover {
+    background-color: #0E6EEF;
+}
+
+.button__red {
+    background-color: #DC3545;
+    color: white;
+}
+
+.button__red:hover {
+    background-color: #C82333;
+} 
